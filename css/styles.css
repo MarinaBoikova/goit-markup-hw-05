@@ -217,6 +217,24 @@ height: 70px;
 .works-list {
   display: flex;
 }
+.works-title{
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  text-align: center;
+  }
+.works-title-thumb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  width: 370px;
+  position: absolute;
+  bottom: 0;
+  }
+
 /* employee */
 .employee-list {
   display: flex;
@@ -300,6 +318,8 @@ fill: currentColor;
 }
 .works-list-items {
   width: 370px;
+  height: 294px;
+  position: relative;
 }
 .works-list-items:not(:last-child) {
   margin-right: 30px;
