@@ -50,7 +50,7 @@
         <!-- Герой -->
         <section class="hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="hero-button">Заказать услугу</button>
+            <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
         </section>
 
         <!-- Особенности работы студии -->
@@ -437,6 +437,17 @@
         </div>
 
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="button-close" data-modal-close>
+                <svg width="11" height="11" xmlns="http://www.w3.org/2000/svg" class="button-close-icon-cross">
+                    <path d="M11 1.108 9.892 0 5.5 4.392 1.108 0 0 1.108 4.392 5.5 0 9.892 1.108 11 5.5 6.608 9.892 11 11 9.892 6.608 5.5 11 1.108Z" />
+                  </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    
 </body>
 
 </html>
